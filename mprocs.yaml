@@ -1,0 +1,10 @@
+procs:
+  typescript:
+    cwd: .
+    shell: tsc --watch
+  testruns:
+    cwd: .
+    shell: pnpm run test
+  emptyshell:
+    cwd: .
+    shell: zsh

@@ -10,21 +10,23 @@
     - [ ] Proxy Layer 
 
 [ ] Scraper Needs: 
-    - [ ] Browser Personalized Finger Print.
-    - [ ] Human like Behavior randomized.
-    
+    - [x] Browser Personalized Finger Print.
+    - [x] Human like Behavior randomized.
+    - [x] Puppeteer scraper wrapper 
+    - [x] Request Interception needed here 
 [ ] Multi Keyword Input & search 
 
 [ ] Instagram Login 
-    - Login handling username, password + easy fallback. 
-    - manual Login integration.
+    - [x] Automatic Login handling username, password
+        - [ ] Trigger a manual Login from front in case automatic login fails 
+    - [x] manual Login integration.
 
 [ ] Automate Search 
-   - Search Implementation. 
-   - Collect Result and filter hashtags out
-   - Returns [Account]
+   - [x] Search Implementation. 
+   - [x] Collect Result and filter hashtags out
+   - [x] Returns [Account]
     
-[ ] Logic 
+[ ] Profile scraping 
     - Loop Thru the Account. 
     - Scrape Profile.
     - Press Follow Button.
@@ -32,7 +34,7 @@
     - Returns Set<Accounts>
 
 [ ] Scrap Profile
-    null if not avaliable 
+    items null if not avaliable 
     - username
     - location/city
     - country
@@ -45,7 +47,7 @@
     - website link 
 
 [ ] Export CSV 
-    - [username, location, country, email .... + keyword_used]
+   - [ ] [username, location, country, email .... + keyword_used]
 
 [ ] Create a Dockerfile and image for this product 
 
@@ -55,5 +57,6 @@
 
 
 ## Finalize 
+[ ] Update from Dev to Production mode
 [ ] Write Readme File & how to run.
-[ ] Publish Product to Client. 
+[ ] Publish Product. 
