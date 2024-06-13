@@ -5,6 +5,9 @@ procs:
   testruns:
     cwd: .
     shell: pnpm run test
+  browser:
+    cwd: .
+    shell: pnpm run start_browser
   emptyshell:
     cwd: .
     shell: zsh

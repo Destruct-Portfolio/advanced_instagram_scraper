@@ -5,7 +5,9 @@ interface QueryObject {
   [key: string]: string
 }
 
-function queryStringToJSON<T = {[key:string]:string}> (queryString: string) : T {
+function queryStringToJSON<T = { [key: string]: string }>(
+  queryString: string,
+): T {
   // handle empty query string
   if (queryString === '') {
     return {} as T
@@ -23,4 +25,18 @@ function queryStringToJSON<T = {[key:string]:string}> (queryString: string) : T 
 
   return result as T
 }
-export { queryStringToJSON, getRandomDelay }
+
+export default async function BrowserConnection(): Promise<string> {
+  return fetch(`http://127.0.0.1:${9222}/json/version`)
+    .then(async (response) => {
+      let resJson = await response.json()
+
+      return resJson.webSocketDebuggerUrl
+    })
+    .catch((error) => {
+      throw new Error(
+        'Browser is not connected ... Please connect the browser check the read me for more information on how to do it ...',
+      )
+    })
+}
+export { queryStringToJSON, getRandomDelay, BrowserConnection }

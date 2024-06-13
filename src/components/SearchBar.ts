@@ -1,6 +1,7 @@
 import { Browser, HTTPRequest, HTTPResponse, Page } from 'puppeteer'
 import { queryStringToJSON } from '../utils/index.js'
 import { QueryParams, ApiResponse, User } from '../types/index.js'
+import { request } from 'http'
 
 // will return an empty array incase of failure []
 export default async function SearchBar(page: Page, keyword: string) {
@@ -8,6 +9,7 @@ export default async function SearchBar(page: Page, keyword: string) {
     page.setRequestInterception(true)
 
     page.on('request', async (request: HTTPRequest) => {
+      if (request.isInterceptResolutionHandled()) return
       await request.continue()
     })
 
@@ -57,7 +59,7 @@ export default async function SearchBar(page: Page, keyword: string) {
     await page.type("input[aria-label='Search input']", keyword, { delay: 99 })
 
     let users = (await waitForQuery()) as Array<User>
-
+    await page.setRequestInterception(false)
     return users
   } catch (error) {
     return [] as Array<User>

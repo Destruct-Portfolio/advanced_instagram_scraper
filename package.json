@@ -1,12 +1,13 @@
 {
   "name": "advanced_instagram_scraper",
   "version": "1.0.0",
-  "type":"module",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest --watch --coverage",
     "manual_login": "node dist/components/login.manual.js",
+    "start_browser": "google-chrome --remote-debugging-port=9222 --no-first-run --no-default-browser-check --user-data-dir=./userDataDir/",
     "dev": "mprocs"
   },
   "keywords": [],
@@ -18,14 +19,18 @@
     "@jest/types": "^29.6.3",
     "@types/jest": "^29.5.12",
     "@types/node": "^20.14.1",
+    "@types/ws": "^8.5.10",
     "dotenv": "^16.4.5",
     "jest": "^29.7.0",
+    "json-2-csv": "^5.5.1",
+    "jsonexport": "^3.2.0",
     "mprocs": "^0.6.4",
     "puppeteer": "^22.10.0",
     "puppeteer-extra": "^3.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2",
     "ts-jest": "^29.1.4",
     "ts-node": "^10.9.2",
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "ws": "^8.17.0"
   }
 }

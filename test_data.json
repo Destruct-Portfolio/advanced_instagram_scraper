@@ -1,0 +1,227 @@
+[
+  {
+    "data": {
+      "user": {
+        "friendship_status": {
+          "following": true,
+          "blocking": false,
+          "is_feed_favorite": false,
+          "outgoing_request": false,
+          "followed_by": false,
+          "incoming_request": false,
+          "is_restricted": false,
+          "is_bestie": false,
+          "muting": false,
+          "is_muting_reel": false
+        },
+        "full_name": "NEWWORLDDEPRESSION",
+        "gating": null,
+        "is_memorialized": false,
+        "is_private": false,
+        "has_story_archive": null,
+        "username": "suicideboys",
+        "supervision_info": null,
+        "is_regulated_c18": false,
+        "regulated_news_in_locations": [],
+        "text_post_app_badge_label": null,
+        "show_text_post_app_badge": null,
+        "eligible_for_text_app_activation_badge": false,
+        "hide_text_app_activation_badge_on_text_app": null,
+        "pk": "6234578313",
+        "live_broadcast_visibility": null,
+        "live_broadcast_id": null,
+        "profile_pic_url": "https://instagram.falg7-1.fna.fbcdn.net/v/t51.2885-19/379005738_1464921707688737_7353769105733348426_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.falg7-1.fna.fbcdn.net&_nc_cat=1&_nc_ohc=uLtDy-5qqYQQ7kNvgH78Glf&edm=APHcPcMBAAAA&ccb=7-5&oh=00_AYAelF6c_rh0uvqhx-q4IHqR9uHWUCCsk4PZ5HSDNuccPQ&oe=666D5F21&_nc_sid=cf751b",
+        "hd_profile_pic_url_info": {
+          "url": "https://instagram.falg7-1.fna.fbcdn.net/v/t51.2885-19/379005738_1464921707688737_7353769105733348426_n.jpg?_nc_ht=instagram.falg7-1.fna.fbcdn.net&_nc_cat=1&_nc_ohc=uLtDy-5qqYQQ7kNvgH78Glf&edm=APHcPcMBAAAA&ccb=7-5&oh=00_AYA7CdGFWuO5H6T4ccrtwCWU2ZNUVj8-o90jxQjIYbACrw&oe=666D5F21&_nc_sid=cf751b"
+        },
+        "is_unpublished": false,
+        "latest_reel_media": 0,
+        "has_profile_pic": null,
+        "account_type": 2,
+        "follower_count": 3171793,
+        "is_verified": true,
+        "mutual_followers_count": 1,
+        "profile_context_links_with_user_ids": [
+          {
+            "username": "yungxrist",
+            "id": null
+          }
+        ],
+        "address_street": "",
+        "city_name": "",
+        "is_business": true,
+        "zip": "",
+        "biography_with_entities": {
+          "entities": [
+            {
+              "hashtag": null,
+              "user": {
+                "username": "suicideleopard",
+                "id": "14524032"
+              }
+            },
+            {
+              "hashtag": null,
+              "user": {
+                "username": "yungxrist",
+                "id": "181525044"
+              }
+            }
+          ]
+        },
+        "category": "",
+        "should_show_category": true,
+        "account_badges": [],
+        "ai_agent_type": null,
+        "bio_links": [
+          {
+            "link_type": "external",
+            "lynx_url": "https://l.instagram.com/?u=https%3A%2F%2Forcd.co%2Flonelyboydeluxe&e=AT288o3-ts_HlYvdXW2m7EuKXyxTYGXhexD18jv3xja6yD1z24CSJE3GIaszwFUTP2Z4lTc50s0CvwctLdb9Op0buNO2UD0CQLPbAF8",
+            "title": "Scrim - lonely boy (deluxe edition)",
+            "url": "https://orcd.co/lonelyboydeluxe"
+          },
+          {
+            "link_type": "external",
+            "lynx_url": "https://l.instagram.com/?u=http%3A%2F%2Forcd.co%2Fduckboy2&e=AT3aTRtKXvUoXSDrwz6M6j4BzJUWB0YlkH-lJUzxiE6CpRyFd03bHsRFUwAm3uJZnoI_q6V3BiBQYAFQ3B_P6xOgA0Ng3vBBch72TGQ",
+            "title": "existential hymns for the average sigma [vol. 9]",
+            "url": "http://orcd.co/duckboy2"
+          },
+          {
+            "link_type": "external",
+            "lynx_url": "https://l.instagram.com/?u=http%3A%2F%2Fg59records.com%2Ftour&e=AT0S-uJGCqcJ0qZdv0FyvI9vkk1CQDoR6jqgMYetT8dm8iGKhC6brHpJxJNDGIORmBTco6sw_HTaH_F_Fsbr-D3uTiWJ9RaJPLtgbTg",
+            "title": "G59RECORDS.COM/TOUR",
+            "url": "http://g59records.com/tour"
+          },
+          {
+            "link_type": "external",
+            "lynx_url": "https://l.instagram.com/?u=https%3A%2F%2Forcd.co%2Fthethingreyline&e=AT04CKtJBaiZQDtf7ma7kamdm7zBoO5XRAP8Dlo3QcDIaIF85_HjAyNkuXHWgJh4m91Ai-1AxK1WaUlRcJVpUVbbs8buecKNqfZiKjk",
+            "title": "THE THIN GREY LINE",
+            "url": "https://orcd.co/thethingreyline"
+          }
+        ],
+        "external_lynx_url": "https://l.instagram.com/?u=https%3A%2F%2Forcd.co%2Flonelyboydeluxe&e=AT288o3-ts_HlYvdXW2m7EuKXyxTYGXhexD18jv3xja6yD1z24CSJE3GIaszwFUTP2Z4lTc50s0CvwctLdb9Op0buNO2UD0CQLPbAF8",
+        "external_url": "https://orcd.co/lonelyboydeluxe",
+        "pronouns": [],
+        "biography": "OFFICIAL INSTAGRAM FOR $UICIDEBOY$ | @suicideleopard x @yungxrist | MGMT: dana@gr6y.com/kyle@gr6y.com |",
+        "transparency_label": null,
+        "transparency_product": null,
+        "has_chaining": true,
+        "remove_message_entrypoint": false,
+        "fbid_v2": "17841406069419322",
+        "interop_messaging_user_fbid": "120850612641028",
+        "show_account_transparency_details": true,
+        "is_embeds_disabled": false,
+        "is_professional_account": null,
+        "following_count": 16,
+        "media_count": 257,
+        "total_clips_count": 1,
+        "latest_besties_reel_media": 0,
+        "reel_media_seen_timestamp": null,
+        "id": "6234578313",
+        "lts_post": ""
+      },
+      "viewer": {
+        "user": {
+          "pk": "55111892909",
+          "id": "55111892909",
+          "can_see_organic_insights": false,
+          "has_onboarded_to_text_post_app": false
+        }
+      }
+    },
+    "extensions": {
+      "is_final": true
+    },
+    "status": "ok"
+  },
+  {
+    "data": {
+      "user": {
+        "friendship_status": {
+          "following": false,
+          "blocking": false,
+          "is_feed_favorite": false,
+          "outgoing_request": false,
+          "followed_by": false,
+          "incoming_request": false,
+          "is_restricted": false,
+          "is_bestie": false,
+          "muting": false,
+          "is_muting_reel": false
+        },
+        "full_name": "Suicideboys Snippets",
+        "gating": null,
+        "is_memorialized": false,
+        "is_private": false,
+        "has_story_archive": null,
+        "username": "suicideboys_snippets",
+        "supervision_info": null,
+        "is_regulated_c18": false,
+        "regulated_news_in_locations": [],
+        "text_post_app_badge_label": null,
+        "show_text_post_app_badge": null,
+        "eligible_for_text_app_activation_badge": false,
+        "hide_text_app_activation_badge_on_text_app": null,
+        "pk": "44585066389",
+        "live_broadcast_visibility": null,
+        "live_broadcast_id": null,
+        "profile_pic_url": "https://instagram.falg7-1.fna.fbcdn.net/v/t51.2885-19/244457819_849779645900985_1228296020941518062_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.falg7-1.fna.fbcdn.net&_nc_cat=109&_nc_ohc=yJAoa_3u3FYQ7kNvgHj2jCe&edm=APHcPcMBAAAA&ccb=7-5&oh=00_AYB19QgTUCj9ioS54sxIA8plO2ulMm9koLWhevNcJASR3w&oe=666D7EE4&_nc_sid=cf751b",
+        "hd_profile_pic_url_info": {
+          "url": "https://instagram.falg7-1.fna.fbcdn.net/v/t51.2885-19/244457819_849779645900985_1228296020941518062_n.jpg?_nc_ht=instagram.falg7-1.fna.fbcdn.net&_nc_cat=109&_nc_ohc=yJAoa_3u3FYQ7kNvgHj2jCe&edm=APHcPcMBAAAA&ccb=7-5&oh=00_AYDDXcpbcLcfbREqxPdHofSWECMrfGc0f1gPL1ZmSj2zrQ&oe=666D7EE4&_nc_sid=cf751b"
+        },
+        "is_unpublished": false,
+        "latest_reel_media": 0,
+        "has_profile_pic": null,
+        "account_type": 1,
+        "follower_count": 831,
+        "is_verified": false,
+        "mutual_followers_count": 0,
+        "profile_context_links_with_user_ids": [],
+        "address_street": null,
+        "city_name": null,
+        "is_business": false,
+        "zip": null,
+        "biography_with_entities": {
+          "entities": []
+        },
+        "category": null,
+        "should_show_category": null,
+        "account_badges": [],
+        "ai_agent_type": null,
+        "bio_links": [],
+        "external_lynx_url": null,
+        "external_url": "",
+        "pronouns": [],
+        "biography": "\"Get the fuck away from me\nI hate all of you,faithfully\nThis world was never made for me.\"",
+        "transparency_label": null,
+        "transparency_product": null,
+        "has_chaining": true,
+        "remove_message_entrypoint": false,
+        "fbid_v2": "17841444471693133",
+        "interop_messaging_user_fbid": "17847004229482390",
+        "show_account_transparency_details": true,
+        "is_embeds_disabled": false,
+        "is_professional_account": null,
+        "following_count": 91,
+        "media_count": 21,
+        "total_clips_count": null,
+        "latest_besties_reel_media": 0,
+        "reel_media_seen_timestamp": null,
+        "id": "44585066389",
+        "lts_post": ""
+      },
+      "viewer": {
+        "user": {
+          "pk": "55111892909",
+          "id": "55111892909",
+          "can_see_organic_insights": false,
+          "has_onboarded_to_text_post_app": false
+        }
+      }
+    },
+    "extensions": {
+      "is_final": true
+    },
+    "status": "ok"
+  }
+]

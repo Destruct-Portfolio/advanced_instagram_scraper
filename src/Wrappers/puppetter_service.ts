@@ -10,7 +10,7 @@ puppeteer.use(StealthPlugin())
 type LaunchOptions = Parameters<typeof puppeteer.launch>[0]
 
 export default class PuppeteerScrapper implements ScrapperInterface {
-  protected $page: Page | null
+  public $page: Page | null
   private _browser: Browser | null
   protected payload: Array<any>
   public logger: Logger

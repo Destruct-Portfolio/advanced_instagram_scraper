@@ -20,12 +20,21 @@ dependencies:
   '@types/node':
     specifier: ^20.14.1
     version: 20.14.1
+  '@types/ws':
+    specifier: ^8.5.10
+    version: 8.5.10
   dotenv:
     specifier: ^16.4.5
     version: 16.4.5
   jest:
     specifier: ^29.7.0
     version: 29.7.0(@types/node@20.14.1)(ts-node@10.9.2)
+  json-2-csv:
+    specifier: ^5.5.1
+    version: 5.5.1
+  jsonexport:
+    specifier: ^3.2.0
+    version: 3.2.0
   mprocs:
     specifier: ^0.6.4
     version: 0.6.4
@@ -47,6 +56,9 @@ dependencies:
   typescript:
     specifier: ^5.4.5
     version: 5.4.5
+  ws:
+    specifier: ^8.17.0
+    version: 8.17.0
 
 packages:
 
@@ -867,6 +879,12 @@ packages:
     resolution: {integrity: sha512-6WaYesThRMCl19iryMYP7/x2OVgCtbIVflDGFpWnb9irXI3UjYE4AzmYuiUKY1AJstGijoY+MgUszMgRxIYTYw==}
     dev: false
 
+  /@types/ws@8.5.10:
+    resolution: {integrity: sha512-vmQSUcfalpIq0R9q7uTo2lXs6eGIpt9wtnLdMv9LVpIjCA/+ufZRozlVoVelIYixx1ugCBKDhn89vnsEGOCx9A==}
+    dependencies:
+      '@types/node': 20.14.1
+    dev: false
+
   /@types/yargs-parser@21.0.3:
     resolution: {integrity: sha512-I4q9QU9MQv4oEOz4tAHJtNz1cwuLxn2F3xcc2iV5WdqLPpUnj30aUuxt1mAxYTG+oe8CZMV/+6rU4S4gRDzqtQ==}
     dev: false
@@ -1384,6 +1402,11 @@ packages:
         optional: true
     dev: false
 
+  /deeks@3.1.0:
+    resolution: {integrity: sha512-e7oWH1LzIdv/prMQ7pmlDlaVoL64glqzvNgkgQNgyec9ORPHrT2jaOqMtRyqJuwWjtfb6v+2rk9pmaHj+F137A==}
+    engines: {node: '>= 16'}
+    dev: false
+
   /deepmerge@4.3.1:
     resolution: {integrity: sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==}
     engines: {node: '>=0.10.0'}
@@ -1415,6 +1438,11 @@ packages:
   /diff@4.0.2:
     resolution: {integrity: sha512-58lmxKSA4BNyLz+HHMUzlOEpg09FV+ev6ZMe3vJihgdxzgcwZ8VoEEPmALCZG9LmqfVoNMMKpttIYTVG6uDY7A==}
     engines: {node: '>=0.3.1'}
+    dev: false
+
+  /doc-path@4.1.1:
+    resolution: {integrity: sha512-h1ErTglQAVv2gCnOpD3sFS6uolDbOKHDU1BZq+Kl3npPqroU3dYL42lUgMfd5UimlwtRgp7C9dLGwqQ5D2HYgQ==}
+    engines: {node: '>=16'}
     dev: false
 
   /dotenv@16.4.5:
@@ -2385,6 +2413,14 @@ packages:
     hasBin: true
     dev: false
 
+  /json-2-csv@5.5.1:
+    resolution: {integrity: sha512-KgAtAXTQopRwe90gh8SgjRSxgt9bUWbGAPMo9W0TZLA8SqiQH7khtagFfeEUjG3NBPwJu/+9uX5pMvunKaPvrQ==}
+    engines: {node: '>= 16'}
+    dependencies:
+      deeks: 3.1.0
+      doc-path: 4.1.1
+    dev: false
+
   /json-parse-even-better-errors@2.3.1:
     resolution: {integrity: sha512-xyFwyhro/JEof6Ghe2iz2NcXoj2sloNsWr/XsERDK/oiPCfaNhl5ONfp+jQdAZRQQ0IJWNzH9zIZF7li91kh2w==}
     dev: false
@@ -2392,6 +2428,11 @@ packages:
   /json5@2.2.3:
     resolution: {integrity: sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==}
     engines: {node: '>=6'}
+    hasBin: true
+    dev: false
+
+  /jsonexport@3.2.0:
+    resolution: {integrity: sha512-GbO9ugb0YTZatPd/hqCGR0FSwbr82H6OzG04yzdrG7XOe4QZ0jhQ+kOsB29zqkzoYJLmLxbbrFiuwbQu891XnQ==}
     hasBin: true
     dev: false
 

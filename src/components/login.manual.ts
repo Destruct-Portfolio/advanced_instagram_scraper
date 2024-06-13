@@ -1,6 +1,10 @@
 import PuppeteerScrapper from '../Wrappers/puppetter_service.js'
 import DisableNotification from './disableNotification.js'
+import scrapeProfile from './scrapeprofile.js'
 import SearchBar from './SearchBar.js'
+
+// DEV ONLY
+import fs from 'node:fs'
 
 export default class LoginManual extends PuppeteerScrapper {
   constructor() {
@@ -15,15 +19,9 @@ export default class LoginManual extends PuppeteerScrapper {
     if (this.$page === null) {
     } else {
       await this.navigate('https://www.instagram.com/accounts/login/')
-
-      await DisableNotification(this.$page).catch((err) => {
-        console.log('No POP UPs This time')
-      })
-      let users = await SearchBar(this.$page, 'suicide boys')
-
-      console.log(users[0])
+      await DisableNotification(this.$page)
     }
   }
 }
 
-new LoginManual().exec()
+// new LoginManual().exec()
