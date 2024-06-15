@@ -77,19 +77,19 @@ pnpm run start
 
 ### Browser Process
 Starts the browser with a personalized profile, ensuring our accounts and history persist during program execution.
-![browser process](./public/terminal3_browser.png)
+![browser process](./public/terminal3 browser.png)
 
 ### Client Process
 Starts our website on port 3000.
-![client process](./public/terminal2_client_side.png)
+![client process](./public/terminal2 client side.png)
 
 ### Scraper Process and WebSocket Server
 Starts the WebSocket server, allowing communication between our client and the scraper.
-![scraper process and websocketserver](./public/terminal3_scraper.png)
+![scraper process and websocketserver](./public/terminal3 scraper.png)
 
 ### Keyword Input
 This is where you will input your keywords. **Please make sure they are comma-separated**; otherwise, it will break.
-![form input](./public/form_input.png)
+![form input](./public/form input.png)
 
 ### Status
 Displays the connection status of the server and whether you are logged in to Instagram. Click on the Instagram logo to start the login process.
