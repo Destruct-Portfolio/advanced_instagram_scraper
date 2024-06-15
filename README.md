@@ -100,7 +100,9 @@ Displays the connection status of the server and whether you are logged in to In
 ![status](./public/status.png)
 
 
-
+### OUTPUT 
+due to the complexity of the object collected from the user profile it would be almost impossible to read it from a csv file so we went for a much better solution using "files" that is and its JSON format 
+you can find an example output in "furniture.json" file 
 
 ENJOY AND HAPPY HACKING 
 
