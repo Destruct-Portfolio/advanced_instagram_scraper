@@ -7,7 +7,6 @@ import DisableNotification from './disableNotification.js'
 
 const config = new ConfigService()
 
-// TODO Close fLag is set to false becuase its DEV enviremnt
 export default class LoginAutomatic extends PuppeteerScrapper {
   private username: string
   private password: string

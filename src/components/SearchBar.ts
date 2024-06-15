@@ -1,9 +1,7 @@
 import { Browser, HTTPRequest, HTTPResponse, Page } from 'puppeteer'
 import { queryStringToJSON } from '../utils/index.js'
 import { QueryParams, ApiResponse, User } from '../types/index.js'
-import { request } from 'http'
 
-// will return an empty array incase of failure []
 export default async function SearchBar(page: Page, keyword: string) {
   try {
     page.setRequestInterception(true)
@@ -60,7 +58,7 @@ export default async function SearchBar(page: Page, keyword: string) {
 
     let users = (await waitForQuery()) as Array<User>
     await page.setRequestInterception(false)
-    await page.close()
+
     return users
   } catch (error) {
     return [] as Array<User>

@@ -2,8 +2,6 @@ import { WebSocketServer } from 'ws'
 import { BrowserConnection } from './utils/index.js'
 import InitialPage from './components/AppPage.js'
 import Script from './components/script.js'
-import scrapeProfile from './components/scrapeprofile.js'
-import fs from 'node:fs'
 import LoginManual from './components/login.manual.js'
 
 type WsEventTypes = 'NewSearch' | 'LogIn'
@@ -42,6 +40,12 @@ try {
   console.log(error)
 }
 
-process.on('uncaughtException', () => {})
+process.on('uncaughtException', (err) => {
+  console.log('Grabbed an uncaught exception.')
+  console.log(JSON.stringify(err))
+})
 
-process.on('unhandledRejection', () => {})
+process.on('unhandledRejection', (err) => {
+  console.log('Grabbed an unhandled rejection.')
+  console.log(JSON.stringify(err))
+})

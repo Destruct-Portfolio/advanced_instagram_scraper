@@ -3,7 +3,6 @@ import { BaseError } from '../errors/index.js'
 import {
   ApiUSerResponse,
   RequestDataUserPage,
-  Userd,
   User,
 } from '../types/index.js'
 import ConfigService from '../Wrappers/config_service.js'
@@ -32,7 +31,6 @@ export default async function scrapeProfile(page: Page, users: Array<User>) {
               if (variableContent.id === userId) {
                 console.log(`Request post data contains userID :: ${userId}`)
                 resolve((await response.json()) as ApiUSerResponse)
-                //  return (await response.json()) as ApiUSerResponse
               }
             }
           }

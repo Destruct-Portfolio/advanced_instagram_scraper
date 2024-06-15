@@ -19,8 +19,3 @@ export default class InitialPage {
     return this;
   }
 }
-
-//
-// let BrowserURL = await BrowserConnection()
-//
-// await new InitialPage(BrowserURL).Display()

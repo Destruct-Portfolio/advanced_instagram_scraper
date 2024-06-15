@@ -8,12 +8,9 @@ import ConfigService from '../Wrappers/config_service.js'
 import { BaseError } from '../errors/index.js'
 import { queryStringToJSON } from '../utils/index.js'
 import Queue from '../utils/Queue.js'
-const config = new ConfigService()
-import fs from 'node:fs'
 import { Page } from 'puppeteer'
 import { Logger } from '@destruct/logger'
 
-// TODO please Toggle false to true durring production
 
 export default class ScrapUser {
   private results: Set<ApiUSerResponse>
@@ -115,38 +112,3 @@ export default class ScrapUser {
     return Array.from(this.results)
   }
 }
-const templateData = [
-  {
-    username: 'suicideboys',
-    is_verified: true,
-    full_name: 'NEWWORLDDEPRESSION',
-    search_social_context: '3.1M followers',
-    unseen_count: 0,
-    pk: '6234578313',
-    live_broadcast_visibility: null,
-    live_broadcast_id: null,
-    profile_pic_url:
-      'https://instagram.falg7-1.fna.fbcdn.net/v/t51.2885-19/379005738_1464921707688737_7353769105733348426_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.falg7-1.fna.fbcdn.net&_nc_cat=1&_nc_ohc=uLtDy-5qqYQQ7kNvgH78Glf&edm=AHFUoAoBAAAA&ccb=7-5&oh=00_AYBacV8t46G6Kd_T4aPC-WZu7cPcWzUQ4vqlRLfhk83WKQ&oe=666D5F21&_nc_sid=cf751b',
-    hd_profile_pic_url_info: null,
-    is_unpublished: null,
-    id: null,
-  },
-
-  {
-    username: 'suicideboysarmy',
-    is_verified: false,
-    full_name: 'suicideboysarmy',
-    search_social_context: null,
-    unseen_count: null,
-    pk: '35899167366',
-    live_broadcast_visibility: null,
-    live_broadcast_id: null,
-    profile_pic_url:
-      'https://instagram.falg7-2.fna.fbcdn.net/v/t51.2885-19/441360091_442217701752671_8594182818943469875_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.falg7-2.fna.fbcdn.net&_nc_cat=111&_nc_ohc=x9p67XFh71wQ7kNvgFWnt1A&edm=AHFUoAoBAAAA&ccb=7-5&oh=00_AYCZxqrJfE1X8yIoEVhWfCoXNPsKfW8u5kbdH4-a0qmOhg&oe=666D872F&_nc_sid=cf751b',
-    hd_profile_pic_url_info: null,
-    is_unpublished: null,
-    id: null,
-  },
-]
-
-// new ScrapUser(templateData).exec()

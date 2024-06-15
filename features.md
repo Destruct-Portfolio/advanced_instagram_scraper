@@ -5,19 +5,15 @@
     - [ ] Solve Captcha Call  
     - [ ] Implement Solution 
     
-[ ] IP rotation
-    - [ ] Reading Proxies. 
-    - [ ] Proxy Layer 
-
 [x] Scraper Needs: 
     - [x] Browser Personalized Finger Print.
     - [x] Human like Behavior randomized.
     - [x] Puppeteer scraper wrapper 
     - [x] Request Interception needed here 
 
-[ ] Multi Keyword Input & search 
+[x] Multi Keyword Input & search 
 
-[ ] Instagram Login 
+[x] Instagram Login 
     - [x] Automatic Login handling username, password
         - [ ] Trigger a manual Login from front in case automatic login fails 
     - [x] manual Login integration.
@@ -48,28 +44,20 @@
         - Instagram bio
         - website link 
 
-[ ] Export CSV 
+[x] Export CSV 
    - [ ] [username, location, country, email .... + keyword_used]
+   due to the Complexity of the user object gathered it would be better to export to csv 
+   - [x] Export to CSV 
 
 [ ] Create a Dockerfile and image for this product 
 
 
 ## Front End : 
-- [ ] React font-end 
-    - [ ] Setup a web-socket server 
-    - [ ] Initial page to input data in such as keywords 
-    - [ ] A way to see if you are logged in or not 
-    - [ ] A new Web-socket to create a some how terminal like data to the front end. 
+- [x] React font-end 
+    - [x] Setup a web-socket server 
+    - [x] Initial page to input data in such as keywords 
 
 ## Finalize 
-[ ] Update from Dev to Production mode
-[ ] Write Readme File & how to run.
-[ ] Publish Product. 
-
-
-
-
-### NOTICE FUTURE PROBLEMS 
-- [ ] Am getting the We suspect you are using an automation tool notice from IG 
-    
-    so i need to randomize my behavior more. and to click on that notice when its comes out 
+[x] Update from Dev to Production mode
+[x] Write Readme File & how to run.
+[x] Publish Product. 
