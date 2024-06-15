@@ -1,13 +1,13 @@
 import PuppeteerScrapper from '../Wrappers/puppetter_service.js'
 import ConfigService from '../Wrappers/config_service.js'
 import { getRandomDelay } from '../utils/index.js'
-import DisableNotification from './disableNotification.js'
+
 import { BaseError } from 'src/errors/index.js'
+import DisableNotification from './disableNotification.js'
 
 const config = new ConfigService()
 
 // TODO Close fLag is set to false becuase its DEV enviremnt
-
 export default class LoginAutomatic extends PuppeteerScrapper {
   private username: string
   private password: string
@@ -72,3 +72,4 @@ export default class LoginAutomatic extends PuppeteerScrapper {
   }
 }
 
+new LoginAutomatic().exec()

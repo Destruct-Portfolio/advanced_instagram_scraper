@@ -1,7 +1,5 @@
 import puppeteer, { Browser, Page } from 'puppeteer'
-import PuppeteerScrapper from 'src/Wrappers/puppetter_service'
 import ConfigService from '../Wrappers/config_service.js'
-import BrowserConnection from '../utils/index.js'
 
 let URL = new ConfigService().get('WEB_PAGE')
 

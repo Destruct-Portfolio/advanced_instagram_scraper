@@ -1,6 +1,7 @@
 import { Browser, Page } from 'puppeteer'
 import SearchBar from './SearchBar.js'
 import scrapeProfile from './scrapeprofile.js'
+import fs from 'node:fs'
 
 export default class Script {
   constructor(
@@ -11,13 +12,23 @@ export default class Script {
   public async extract() {
     const page = await this.browser.newPage()
     await page.setViewport({ height: 900, width: 1600 })
-
+    await page.goto('https://instagram.com/', {
+      waitUntil: 'networkidle2',
+      timeout: 0,
+    })
     for (let index = 0; index < this.keywords.length; index++) {
-      const keyword = this.keywords[index]
-      let SearchUsers = await SearchBar(page, keyword)
-      let users = await scrapeProfile(page, [SearchUsers[0].user])
 
-      // I need to write to CSV 
+      
+      const keyword = this.keywords[index]
+      console.log(`Searching ${keyword}`)
+
+      let SearchUsers = await SearchBar(page, keyword)
+      const newPage = await this.browser.newPage()
+      
+      await newPage.setViewport({ height: 900, width: 1600 })
+      let users = await scrapeProfile(newPage, SearchUsers)
+
+      fs.writeFileSync(`${keyword}.json`, JSON.stringify(users))
     }
   }
 }

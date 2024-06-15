@@ -1,0 +1,290 @@
+[
+  {
+    "data": {
+      "user": {
+        "friendship_status": {
+          "following": false,
+          "blocking": false,
+          "is_feed_favorite": false,
+          "outgoing_request": false,
+          "followed_by": false,
+          "incoming_request": false,
+          "is_restricted": false,
+          "is_bestie": false,
+          "muting": false,
+          "is_muting_reel": false
+        },
+        "full_name": "ViKo.furniture",
+        "gating": null,
+        "is_memorialized": false,
+        "is_private": false,
+        "has_story_archive": null,
+        "username": "viko.furniture",
+        "supervision_info": null,
+        "is_regulated_c18": false,
+        "regulated_news_in_locations": [],
+        "text_post_app_badge_label": null,
+        "show_text_post_app_badge": null,
+        "pk": "59441193877",
+        "live_broadcast_visibility": null,
+        "live_broadcast_id": null,
+        "profile_pic_url": "https://instagram.fqfd1-2.fna.fbcdn.net/v/t51.2885-19/417186817_3793278210896034_7073589645408072994_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fqfd1-2.fna.fbcdn.net&_nc_cat=106&_nc_ohc=MvNoUykY4F4Q7kNvgH8JJJM&edm=APHcPcMBAAAA&ccb=7-5&oh=00_AYCSgIHFvjn1BsTV7w74Or57hc3YuNFYhMKkcjRknmKHOA&oe=6672596B&_nc_sid=cf751b",
+        "hd_profile_pic_url_info": {
+          "url": "https://instagram.fqfd1-2.fna.fbcdn.net/v/t51.2885-19/417186817_3793278210896034_7073589645408072994_n.jpg?_nc_ht=instagram.fqfd1-2.fna.fbcdn.net&_nc_cat=106&_nc_ohc=MvNoUykY4F4Q7kNvgH8JJJM&edm=APHcPcMBAAAA&ccb=7-5&oh=00_AYBuCT6QLgeoXKhaxmGMjxUZwTR-ZCaV1RxmIVuFMVTdbw&oe=6672596B&_nc_sid=cf751b"
+        },
+        "is_unpublished": false,
+        "latest_reel_media": 1718381530,
+        "has_profile_pic": null,
+        "account_type": 2,
+        "follower_count": 25477,
+        "is_verified": false,
+        "mutual_followers_count": 0,
+        "profile_context_links_with_user_ids": [],
+        "address_street": "",
+        "city_name": "",
+        "is_business": true,
+        "zip": "",
+        "biography_with_entities": {
+          "entities": []
+        },
+        "category": "Furniture",
+        "should_show_category": true,
+        "account_badges": [],
+        "ai_agent_type": null,
+        "bio_links": [
+          {
+            "link_type": "facebook_page",
+            "lynx_url": "",
+            "title": "",
+            "url": ""
+          },
+          {
+            "link_type": "external",
+            "lynx_url": "https://l.instagram.com/?u=https%3A%2F%2Fwww.vikofurniture.com%2F&e=AT0mltnwBxiu2RusFqOCWWqGjSbxW_yrNX3hGNFbF6tBOC6lhD7WWmeggBPUwfZlpyHAFbo0zjXH3Ek9RpHN_vq9Bw8DlsbNaKkc2pc",
+            "title": "Site",
+            "url": "https://www.vikofurniture.com/"
+          }
+        ],
+        "external_lynx_url": null,
+        "external_url": "",
+        "pronouns": [],
+        "biography": "♤Leading FurniTure companies of The world 🇩🇿\n  \" La Marque qui réalise votre rêve \"\n☎️07-76-36-91-30\n☎️06-72-46-76-57\n●service de gros :07-91-30-68-19",
+        "transparency_label": null,
+        "transparency_product": null,
+        "has_chaining": true,
+        "remove_message_entrypoint": false,
+        "fbid_v2": "17841459336330149",
+        "interop_messaging_user_fbid": "17848574783977878",
+        "show_account_transparency_details": true,
+        "is_embeds_disabled": false,
+        "is_professional_account": null,
+        "following_count": 1,
+        "media_count": 109,
+        "total_clips_count": 1,
+        "latest_besties_reel_media": 0,
+        "reel_media_seen_timestamp": null,
+        "id": "59441193877",
+        "lts_post": ""
+      },
+      "viewer": {
+        "user": {
+          "pk": "55111892909",
+          "id": "55111892909",
+          "can_see_organic_insights": false
+        }
+      }
+    },
+    "extensions": {
+      "is_final": true
+    },
+    "status": "ok"
+  },
+  {
+    "data": {
+      "user": {
+        "friendship_status": {
+          "following": false,
+          "blocking": false,
+          "is_feed_favorite": false,
+          "outgoing_request": false,
+          "followed_by": false,
+          "incoming_request": false,
+          "is_restricted": false,
+          "is_bestie": false,
+          "muting": false,
+          "is_muting_reel": false
+        },
+        "full_name": "A&T FURNITURE",
+        "gating": null,
+        "is_memorialized": false,
+        "is_private": false,
+        "has_story_archive": null,
+        "username": "at_furniture",
+        "supervision_info": null,
+        "is_regulated_c18": false,
+        "regulated_news_in_locations": [],
+        "text_post_app_badge_label": null,
+        "show_text_post_app_badge": null,
+        "pk": "8283048014",
+        "live_broadcast_visibility": null,
+        "live_broadcast_id": null,
+        "profile_pic_url": "https://instagram.fqfd1-1.fna.fbcdn.net/v/t51.2885-19/242654679_223532116419865_3828307943837625835_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fqfd1-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=xnJ3sJvqV10Q7kNvgGMQl9J&edm=APHcPcMBAAAA&ccb=7-5&oh=00_AYCM4KV5T98hUNySl3Ixkvx1x6l4e5dUnzb5-h6cRhsIRQ&oe=66726FAB&_nc_sid=cf751b",
+        "hd_profile_pic_url_info": {
+          "url": "https://instagram.fqfd1-1.fna.fbcdn.net/v/t51.2885-19/242654679_223532116419865_3828307943837625835_n.jpg?_nc_ht=instagram.fqfd1-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=xnJ3sJvqV10Q7kNvgGMQl9J&edm=APHcPcMBAAAA&ccb=7-5&oh=00_AYAowgA7t9HQJRpWs4qBbk-FIURSYurf-TnEK07gZeqAAQ&oe=66726FAB&_nc_sid=cf751b"
+        },
+        "is_unpublished": false,
+        "latest_reel_media": 1718377283,
+        "has_profile_pic": null,
+        "account_type": 2,
+        "follower_count": 19011,
+        "is_verified": false,
+        "mutual_followers_count": 0,
+        "profile_context_links_with_user_ids": [],
+        "address_street": "",
+        "city_name": "",
+        "is_business": true,
+        "zip": "",
+        "biography_with_entities": {
+          "entities": []
+        },
+        "category": "Home decor",
+        "should_show_category": true,
+        "account_badges": [],
+        "ai_agent_type": null,
+        "bio_links": [
+          {
+            "link_type": "facebook_page",
+            "lynx_url": "",
+            "title": "",
+            "url": ""
+          }
+        ],
+        "external_lynx_url": null,
+        "external_url": "",
+        "pronouns": [],
+        "biography": "Meuble/ Décoration d'intérieur/ اثاث \nAdd a sweet touch to your home 🛋️✨\n➡️Blida ouled yaich\n Livraison disponible 🚚",
+        "transparency_label": null,
+        "transparency_product": null,
+        "has_chaining": true,
+        "remove_message_entrypoint": false,
+        "fbid_v2": "17841408160435381",
+        "interop_messaging_user_fbid": "111140586947005",
+        "show_account_transparency_details": true,
+        "is_embeds_disabled": false,
+        "is_professional_account": null,
+        "following_count": 49,
+        "media_count": 1028,
+        "total_clips_count": 1,
+        "latest_besties_reel_media": 0,
+        "reel_media_seen_timestamp": null,
+        "id": "8283048014",
+        "lts_post": ""
+      },
+      "viewer": {
+        "user": {
+          "pk": "55111892909",
+          "id": "55111892909",
+          "can_see_organic_insights": false
+        }
+      }
+    },
+    "extensions": {
+      "is_final": true
+    },
+    "status": "ok"
+  },
+  {
+    "data": {
+      "user": {
+        "friendship_status": {
+          "following": false,
+          "blocking": false,
+          "is_feed_favorite": false,
+          "outgoing_request": false,
+          "followed_by": false,
+          "incoming_request": false,
+          "is_restricted": false,
+          "is_bestie": false,
+          "muting": false,
+          "is_muting_reel": false
+        },
+        "full_name": "Bigbosshop.com",
+        "gating": null,
+        "is_memorialized": false,
+        "is_private": false,
+        "has_story_archive": null,
+        "username": "bigboss_furniture_shop",
+        "supervision_info": null,
+        "is_regulated_c18": false,
+        "regulated_news_in_locations": [],
+        "text_post_app_badge_label": null,
+        "show_text_post_app_badge": null,
+        "pk": "3153107591",
+        "live_broadcast_visibility": null,
+        "live_broadcast_id": null,
+        "profile_pic_url": "https://instagram.fqfd1-1.fna.fbcdn.net/v/t51.2885-19/330499290_212407477976665_121897557957625735_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fqfd1-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=RVIvp4P-cBsQ7kNvgFa2c96&edm=APHcPcMBAAAA&ccb=7-5&oh=00_AYCP4qRmW0yDzHFz15N6hwQJnzO8lGu5VKWIzsNjZsaP9A&oe=6672517A&_nc_sid=cf751b",
+        "hd_profile_pic_url_info": {
+          "url": "https://instagram.fqfd1-1.fna.fbcdn.net/v/t51.2885-19/330499290_212407477976665_121897557957625735_n.jpg?_nc_ht=instagram.fqfd1-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=RVIvp4P-cBsQ7kNvgFa2c96&edm=APHcPcMBAAAA&ccb=7-5&oh=00_AYAZH6Ramdtz5HjlYd5Q-2J-YqJzODibPE6i1B4drG6UPw&oe=6672517A&_nc_sid=cf751b"
+        },
+        "is_unpublished": false,
+        "latest_reel_media": 1718358777,
+        "has_profile_pic": null,
+        "account_type": 2,
+        "follower_count": 183474,
+        "is_verified": false,
+        "mutual_followers_count": 0,
+        "profile_context_links_with_user_ids": [],
+        "address_street": "Ordu Cad. No:66 Kat:5",
+        "city_name": "Istanbul, Turkey",
+        "is_business": true,
+        "zip": "",
+        "biography_with_entities": {
+          "entities": []
+        },
+        "category": "Shopping & retail",
+        "should_show_category": true,
+        "account_badges": [],
+        "ai_agent_type": null,
+        "bio_links": [
+          {
+            "link_type": "external",
+            "lynx_url": "https://l.instagram.com/?u=http%3A%2F%2Fwww.bigbosshop.com%2F&e=AT2ZjmOudpB4GNsiDly4euhZ-iUi1ZiZN7CFHxKFa82L20s4yzNfwRPXdOrxzHW_dJvoi1CTNoUFpIRjEObMOac-UwQaufgjpJ4k7vQ",
+            "title": "",
+            "url": "http://www.bigbosshop.com/"
+          }
+        ],
+        "external_lynx_url": "https://l.instagram.com/?u=http%3A%2F%2Fwww.bigbosshop.com%2F&e=AT2ZjmOudpB4GNsiDly4euhZ-iUi1ZiZN7CFHxKFa82L20s4yzNfwRPXdOrxzHW_dJvoi1CTNoUFpIRjEObMOac-UwQaufgjpJ4k7vQ",
+        "external_url": "http://www.bigbosshop.com/",
+        "pronouns": [],
+        "biography": "🌍 Worldwide 🚚 shipping\nتوصيل مضمون لمنزلك بسعر تركيا\nViber:+905050197611\nWhatsapp:+9647503181193",
+        "transparency_label": null,
+        "transparency_product": null,
+        "has_chaining": true,
+        "remove_message_entrypoint": false,
+        "fbid_v2": "17841403227734138",
+        "interop_messaging_user_fbid": "116784289711122",
+        "show_account_transparency_details": true,
+        "is_embeds_disabled": false,
+        "is_professional_account": null,
+        "following_count": 215,
+        "media_count": 920,
+        "total_clips_count": 1,
+        "latest_besties_reel_media": 0,
+        "reel_media_seen_timestamp": null,
+        "id": "3153107591",
+        "lts_post": ""
+      },
+      "viewer": {
+        "user": {
+          "pk": "55111892909",
+          "id": "55111892909",
+          "can_see_organic_insights": false
+        }
+      }
+    },
+    "extensions": {
+      "is_final": true
+    },
+    "status": "ok"
+  }
+]

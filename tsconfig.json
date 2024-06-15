@@ -25,6 +25,7 @@
   "exclude": [
     "node_modules",
     "dist",
-    "jest.config.ts"
+    "jest.config.ts",
+    "advanced_instagram_client" 
   ]
 }

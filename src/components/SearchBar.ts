@@ -60,6 +60,7 @@ export default async function SearchBar(page: Page, keyword: string) {
 
     let users = (await waitForQuery()) as Array<User>
     await page.setRequestInterception(false)
+    await page.close()
     return users
   } catch (error) {
     return [] as Array<User>

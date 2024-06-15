@@ -1,13 +1,10 @@
 procs:
-  typescript:
-    cwd: .
-    shell: tsc --watch
-  testruns:
-    cwd: .
-    shell: pnpm run test
   browser:
     cwd: .
     shell: pnpm run start_browser
-  emptyshell:
+  client:
     cwd: .
-    shell: zsh
+    shell: pnpm run client
+  InstaScrapPro:
+    cwd: .
+    shell: pnpm run server
