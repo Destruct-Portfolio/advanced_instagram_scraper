@@ -6,12 +6,12 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --watch --coverage",
-    "build":"pnpm install && cd /advanced_instagram_client && pnpm install",
+    "build":"npm install",
     "manual_login": "node dist/components/login.manual.js",
     "start_browser": "google-chrome --remote-debugging-port=9222 --no-first-run --no-default-browser-check --user-data-dir=./userDataDir/",
     "client":"cd advanced_instagram_client/ && npm run dev",
     "server":"node dist/index.js",
-    "start": "mprocs"
+    "start": "node dist/index.js"
   },
   "keywords": [],
   "author": "",

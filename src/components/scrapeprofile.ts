@@ -49,9 +49,10 @@ export default async function scrapeProfile(page: Page, users: Array<User>) {
   console.log('Starting to scrape The user Profiles Form here ... ')
   await page.setRequestInterception(true)
 
-  for (let index = 0; index < users.length; index++) {
+  for (let index = 0; index <= 10; index++) {
     const user = users[index].user
-
+    console.log(user.full_name)
+    
     page.on('request', async (request: HTTPRequest) => {
       if (request.isInterceptResolutionHandled()) return
       await request.continue()
@@ -82,6 +83,7 @@ export default async function scrapeProfile(page: Page, users: Array<User>) {
         results.push(userInfo)
         break
       } catch (error) {
+        console.log(error)
         retries++
         console.log(
           `Scraper failed to scrape account with username: ${user.username}`,
